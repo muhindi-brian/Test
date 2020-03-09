@@ -1,0 +1,16 @@
+{% extends "questionnaire/base.html" %}
+{% block content %}
+    {% for question in questionnaire %}
+        <div class="media mb-4">
+            <div class="media-body">
+              <h5 class="mt-0">questionnaire response {{ question.pk }}</h5>
+              <p>Name: {{ question.name }}</p>
+              <p>Gender: {{ question.gender }}</p>
+              <p>Age: {{ question.age }}</p>
+              <p>Nationality: {{ question.nationality }}</p>
+              <p>Visit been exceeded: {{ question.question_1 }}</p>
+              <p>Most memorable experience: {{ question.question_2 }}</p>
+            </div>
+          </div>
+    {% endfor %}
+{% endblock content %}

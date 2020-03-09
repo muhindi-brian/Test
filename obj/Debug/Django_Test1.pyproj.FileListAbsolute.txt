@@ -1,0 +1,2 @@
+C:\Users\Otto\Desktop\Django_Test\bin\Microsoft.PythonTools.WebRole.dll
+C:\Users\Otto\Desktop\Django_Test\bin\wfastcgi.py
